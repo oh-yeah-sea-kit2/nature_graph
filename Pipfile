@@ -12,6 +12,12 @@ requests = "*"
 python-dotenv = "*"
 gspread = "*"
 oauth2client = "*"
+fastapi = "*"
+uvicorn = "*"
+pylint = "*"
+autopep8 = "*"
+pandas = "==1.0.3"
+matplotlib = "*"
 
 [requires]
 python_version = "3.6"
