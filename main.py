@@ -8,7 +8,7 @@ load_dotenv(verbose=True)
 dotenv_path = join(dirname(__file__), ".env")
 load_dotenv(dotenv_path)
 
-te_path = join(dirname(__file__), "./te.json")
+te_path = join(dirname(__file__), "./data/te.json")
 
 df = pd.read_json(te_path)
 df["created_at"] = pd.to_datetime(df["created_at"], utc=True)
